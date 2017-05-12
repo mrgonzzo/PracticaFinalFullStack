@@ -1,0 +1,120 @@
+.clearfix {
+    overflow: auto;
+}
+.tacentre{
+    text-align: center;
+}
+.wid100{
+  width: 100%;
+}
+.bluetext{
+    color: blue;
+}
+.nop{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.registre{
+    font-size: 20px;
+}
+.main{
+    font-size: 36px;
+    font-weight: bold; 
+}
+.aboutus{
+    font-size: 18px;; 
+}
+.deck{
+    width: 726px;
+    height: 764px;
+    margin: auto;
+}
+.face .backed{
+    visibility: visible;
+}
+.solve{
+    visibility: hidden;
+}
+.card{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.display{
+ margin-left: 40%;
+}
+.user{
+    font-weight: bold;
+    font-size: 20px;
+    float:left;
+}
+.counter{
+    margin: 3px 3px 3px 3px;
+    height: 160px;
+}
+.count{
+    height: 40px;
+    width: 100px;
+    padding-top:25px;
+}
+.ok{
+    background-color: green;
+   }
+.ko{
+    background-color: red;
+   }
+
+.avatarcss{
+    float:left;
+    margin-left: 50px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.terminator{
+    margin-right: 50px;
+}
+.radavatar{
+    margin-left: 30%;  
+    width: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color:gray;
+    margin-right: 30%;
+}    
+.js_class_ko{
+    border-color: red;
+}
+.js_class_ok{
+    border-color: green;
+}
+.js_text_ok{
+    color: green;
+}
+.js_text_ko{
+    color: red;
+}
+.wincontainer{
+    width: 680px;
+    height: 400px; 
+}
+#win{ 
+     position: absolute;
+     top:250px;
+	 left:0px;
+     -webkit-animation-name:movwin;
+     -webkit-animation-duration:5s;
+     -webkit-animation-iteration-count:infinite;
+     -webkit-animation-direction:alternate;
+	  }
+	  
+@-webkit-keyframes movwin{ from{ 
+	                              width: 1px;
+		                          height: 1px;
+								  }
+                               to{ 
+								   width:100%;
+	                               height:390px;
+							       } 
+								   }	
